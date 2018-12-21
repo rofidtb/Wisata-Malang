@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+        VIDEO WISATA
+"
+                android:textAlignment="center"
+                android:textColor="@color/ungu"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/semeru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/meru"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/bromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/bromo"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#81d"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/sewu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/sewu2"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/bale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/bale"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#81d"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/alun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/alun"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/jodipan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/jodipan"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#81d"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/hawai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/hawai"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/jp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:background="@drawable/jp2"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+"
+                android:textAlignment="center"
+                android:textColor="#81d"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/home"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

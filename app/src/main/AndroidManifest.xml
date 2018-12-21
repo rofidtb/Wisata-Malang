@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wisata Malang"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrasiActivity" />
+        <activity android:name=".WisataActivity" />
+        <activity android:name=".AlunActivity" />
+        <activity android:name=".BaleActivity" />
+        <activity android:name=".BromoActivity" />
+        <activity android:name=".HawaiActivity" />
+        <activity android:name=".JatimActivity" />
+        <activity android:name=".JodipanActivity" />
+        <activity android:name=".SemeruActivity" />
+        <activity android:name=".SewuActivity" />
+        <activity android:name=".TamnasActivity" />
+        <activity android:name=".GalerialamActivity" />
+        <activity android:name=".GalerikotaActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".GaleryActivity" />
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>
